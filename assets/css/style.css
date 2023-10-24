@@ -23,7 +23,7 @@ body {
 
 .container{
   display: flex;
-  max-width: 450px;
+  max-width: 360px;
   margin: 50px auto;
   background: #fff;
   padding: 30px;
@@ -78,7 +78,7 @@ p{
   text-align: center;
 }
 .calculadora{
-  width: 420px;
+  width: 350px;
 }
 .display{
   font-size: 2em;
