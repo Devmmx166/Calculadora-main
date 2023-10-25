@@ -13,12 +13,13 @@ body{
   padding: 3em;
 }
 #calc{
-  width: 500px;
+  width: 400px;
   padding: .5em;
   background-color: #c4c4c4;
   color: #000;
   display: flex;
   flex-direction: column;
+  height: 100vh;
 }
 
 #calc h3{
