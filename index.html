@@ -5,54 +5,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lista de tarefas</title>
+  <title>Calculadora</title>
   <link rel="stylesheet" href="assets/css/style.css">
+
   
  
 </head>
 
 <body>
-  <section class="container alinhar">
-    <h1>Calculadora</h1>
-    <table class="calculadora">
-      <tr>
-        <td colspan="4"> <input type="display" class="display" placeholder="input"> </td>
-      </tr>
-      <tr>
-        <td class="alinhar"><button class="btn btn-clean on-CC">C</button></td>
-        <td><button class="btn btn-num">(</button></td>
-        <td><button class="btn btn-num">)</button></td>
-        <td><button class="btn btn-del">←</button></td>
-       
-      </tr>
-      <tr>
-        <td><button class="btn btn-num">7</button></td>
-        <td><button class="btn btn-num">8</button></td>
-        <td><button class="btn btn-num">9</button></td>
-        <td><button class="btn btn-num">*</button></td>
-      </tr>
-      <tr>
-        <td><button class="btn btn-num">4</button></td>
-        <td><button class="btn btn-num">5</button></td>
-        <td><button class="btn btn-num">6</button></td>
-        <td><button class="btn btn-num">/</button></td>
-      </tr>
-      <tr>
-        <td><button class="btn btn-num">1</button></td>
-        <td><button class="btn btn-num">2</button></td>
-        <td><button class="btn btn-num">3</button></td>
-        <td><button class="btn btn-num">-</button></td>
-      </tr>
-      <tr>       
-        <td><button class="btn btn-num">0</button></td>
-        <td><button class="btn btn-num">.</button></td>
-        <td><button class="btn btn-eq" type="submit">=</button></td>      
-        <td><button class="btn btn-num soma">+</button></td>       
-      </tr>
-    </table>
-    </section>
+<div id="calc">
+  <h3>Calculadora</h3>
+  <div id="operations">
+    <div id="previus-operations"></div>
+    <div id="current-operations"></div>
+  </div>
+  <div id="buttons-container">
+    <button>CE</button>
+    <button>C</button>
+    <button>DEL</button>
+    <button>/</button>
+    <button class="number">7</button>
+    <button class="number">8</button>
+    <button class="number">9</button>
+    <button>*</button>
+    <button class="number">4</button >
+    <button class="number">5</button >
+    <button class="number">6</button>
+    <button>-</button>
+    <button class="number">1</button>
+    <button class="number">2</button>
+    <button class="number">3</button>
+    <button>+</button>
+    <button class="number">0</button>
+    <button  class="number">.</button>
+    <button id="equal-btn">=</button>
+    
+    
 
-    <script src="assets/js/main.js"></script>
+  </div>
+</div>
+<script src="assets/js/main.js"></script>
 </body>
 
 </html>
